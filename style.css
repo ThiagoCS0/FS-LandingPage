@@ -1,0 +1,279 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-drag: none;
+}
+
+html {
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+*::selection {
+    color: #FFF;
+    background-color: #000;
+}
+
+body {
+    color: #DDD;
+    background-color: #222;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo {
+    gap: 20px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+#titulo img:hover,
+a:hover {
+    box-shadow: 0px 0px 12px #000;
+}
+
+#titulo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    box-shadow: 0px 0px 10px #0008;
+}
+
+#primeiroTexto {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#titulo p {
+    padding: 20px 0;
+}
+
+a {
+    color: #FFF;
+    cursor: pointer;
+    padding: 8px 14px;
+    width: fit-content;
+    transition: all 0.5s;
+    text-decoration: none;
+    background-color: #333;
+    border-radius: 8px 0 8px;
+}
+
+#continua {
+    display: flex;
+    flex-direction: column;
+}
+
+#produtos {
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.coluna {
+    gap: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.colunas {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.produtos {
+    width: 18vh;
+    height: 23vh;
+    color: #AAA;
+    display: flex;
+    cursor: pointer;
+    transition: all 1s;
+    filter: grayscale(1);
+    flex-direction: column;
+    border: 1px solid #222;
+}
+
+.produtos:hover {
+    color: #FFF;
+    filter: grayscale(0);
+    box-shadow: 0px 0px 10px #000;
+}
+
+.produtos img {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.produtos p {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#descProdutos {
+    gap: 10px;
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    border: 1px solid #333;
+}
+
+#descProdutos img {
+    width: 30vh;
+    height: 100%;
+    padding: 4px;
+}
+
+#infProdutos {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#infProdutos h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#infProdutos p {
+    padding: 10px;
+    font-size: larger;
+}
+
+#infProdutos a {
+    width: 100%;
+    text-align: center;
+}
+
+#compra {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#compra div:first-child {
+    display: flex;
+}
+
+#div1Compra {
+    width: 50vh;
+    height: 80vh;
+    display: flex;
+    min-width: 400px;
+    min-height: 600px;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #333;
+}
+
+#div1Compra img {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#div1Compra div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#div1Compra h1 {
+    text-align: center;
+}
+
+#div1Compra p {
+    text-align: center;
+}
+
+#div2Compra {
+    width: 50vh;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#entradas {
+    gap: 20px;
+}
+
+#entradas,
+#entradas div {
+    display: flex;
+    flex-direction: column;
+}
+
+#entradas div * {
+    padding: 10px;
+}
+
+form {
+    width: 80%;
+    display: flex;
+    height: calc(400px);
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form input {
+    outline: none;
+    padding: 10px;
+}
+
+#nome,
+#email {
+    height: 48px;
+    color: #FFF;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #000;
+}
+
+#botoes {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#botoes input {
+    width: 100%;
+    height: 48px;
+    color: #FFF;
+    cursor: pointer;
+    padding: 8px 14px;
+    transition: all 0.5s;
+    text-decoration: none;
+    border-radius: 8px 0 8px;
+    background-color: #333;
+}
+
+form input::selection {
+    color: #000;
+    background-color: #DDD;
+}
+
+#bInicio {}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section id="inicio">
+            <div id="titulo">
+                <img src="./src/T.jpg" alt="HTML CSS JS">
+                <div id="primeiroTexto">
+                    <div>
+                        <h1>Olá, me chamo Thiago</h1>
+                        <h3>Sejá bem vinda (o)!</h3>
+                        <p>Página do exercício de Landing Page da
+                            +praTi!</p>
+                    </div>
+                    <a href="#continua" id="botao">Saiba mais...</a>
+                </div>
+            </div>
+        </section>
+        <section id="continua">
+            <div id="produtos">
+                <div class="coluna">
+                    <div class="colunas">
+                        <div class="produtos" onclick="OnProd(this)"><img src="" alt="">
+                            <p></p>
+                        </div>
+                        <div class="produtos" onclick="OnProd(this)"><img src="" alt="">
+                            <p></p>
+                        </div>
+                        <div class="produtos" onclick="OnProd(this)"><img src="" alt="">
+                            <p></p>
+                        </div>
+                        <div class="produtos" onclick="OnProd(this)"><img src="" alt="">
+                            <p></p>
+                        </div>
+
+                    </div>
+                    <div class="colunas">
+                        <div class="produtos" onclick="OnProd(this)"><img src="" alt="">
+                            <p></p>
+                        </div>
+                        <div class="produtos" onclick="OnProd(this)"><img src="" alt="">
+                            <p></p>
+                        </div>
+                        <div class="produtos" onclick="OnProd(this)"><img src="" alt="">
+                            <p></p>
+                        </div>
+                        <div class="produtos" onclick="OnProd(this)"><img src="" alt="">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="descProdutos">
+                <img src="./src/0 (1).jpg" alt="">
+                <div id="infProdutos">
+                    <div>
+                        <h1>DocezZ</h1>
+                        <p>Os 50 melhores doces do mundo, de A a Z.</p>
+                    </div>
+                    <a href="#compra">Baixar!</a>
+                </div>
+            </div>
+        </section>
+        <section id="compra">
+            <div>
+                <div id="div1Compra">
+                    <img src="./src/0 (1).jpg" alt="">
+                    <h1>DocezZ</h1>
+                    <p>Os 50 melhores doces do mundo, de A a Z.</p>
+                </div>
+                <div id="div2Compra">
+                    <form action="javascript: Enviar()" id="myForm">
+                        <div id="entradas">
+                            <div>
+                                <label for="nome">Name</label>
+                                <input type="text" name="nome" id="nome" required />
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" required />
+                            </div>
+                        </div>
+                        <div id="botoes">
+                            <input type="reset" value="Limpar" />
+                            <input type="submit" value="Comprar!" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <a id="bInicio" href="#inicio">INICIO</a>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
